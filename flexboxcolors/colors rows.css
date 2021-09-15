@@ -1,0 +1,52 @@
+.main > * {
+    padding: 10px;
+}
+
+.main > article {
+    background-color: red;
+}
+
+.main > aside {
+    background-color: black;
+    color: white;
+}
+
+.main > footer {
+    background-color: green;
+    color: yellow;
+}
+.main {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-dircetion: column;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 780px){
+    .main {
+     -webkit-flex-direction: row;
+     flex-direction: row;
+   }
+   .main > * {
+     border-radius: 10px;
+   }
+ 
+   .main > article {
+     -webkit-flex: 1;
+     flex: 1;  
+   }
+ 
+   .main > aside {
+    -webkit-order: -1;
+    order: -1;
+    }
+ 
+  @media screen and (max-width: 781px){
+    .main {
+     -webkit-flex-direction: column;
+     flex-direction: column;
+   }
+ 
+  
+}
+
