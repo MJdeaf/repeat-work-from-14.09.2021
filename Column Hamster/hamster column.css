@@ -1,0 +1,23 @@
+body {
+    background-color: rgba(217, 217, 31, 0.883);
+}
+  
+.wrapper {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: green;
+    border: 5px solid green;
+}
+  
+.column {
+    
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+  
+.column img {
+    width: 200px;
+}
