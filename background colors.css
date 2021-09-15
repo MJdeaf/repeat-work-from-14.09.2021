@@ -1,0 +1,19 @@
+/* background mobile phones */
+@media screen and (max-width: 480px) {
+    body {
+        background-color:violet;
+    }
+}
+/* background tablets */
+@media screen and (min-width: 481px) and (max-width:1200px) {
+    body {
+           background-color: deepskyblue;
+    }
+   }
+/* background internet browser */
+@media screen and (min-width:1200px) {
+    body {
+        background-color: yellowgreen;
+    }
+}
+}
